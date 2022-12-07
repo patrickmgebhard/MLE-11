@@ -3,13 +3,13 @@
 ## DoD (Definition of Done)
 At a high level, get comfortable with [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow); specifically, you should complete the following
 - [x] Create a public repo on GitHub
-- [ ] Several commits with meaningful messages.
-- [ ] Create a branch and the branch name should be descriptive.
-- [ ] Create Pull requests on GitHub
-- [ ] Conduct Code Review 
-- [ ] Merge pull requests into the `main` branch
-- [ ] Delete the branch remotely and locally when done
-- [ ] Pull changes from a remote repository
+- [x] Several commits with meaningful messages.
+- [x] Create a branch and the branch name should be descriptive.
+- [x] Create Pull requests on GitHub
+- [x] Conduct Code Review 
+- [x] Merge pull requests into the `main` branch
+- [x] Delete the branch remotely and locally when done
+- [x] Pull changes from a remote repository
 
 ## Step by Step Instructions
 Detailed instructions for a team project repo, adapted from the example in Git Feature Branch Workflow. 
