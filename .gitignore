@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# local huggingface model
+assignments/week-03-huggingface-fastapi/fast_api_tutorial/model
