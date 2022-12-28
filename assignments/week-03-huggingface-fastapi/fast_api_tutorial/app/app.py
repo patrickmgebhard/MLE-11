@@ -9,6 +9,10 @@ app = FastAPI()
 class TextToTranslate(BaseModel):
     input_text: str
 
+# need to fix this!
+class TextsToTranslate(BaseModel):
+    input_texts: list[str]
+
 @app.get("/")
 def index():
     return {"message": "Hello World"}
@@ -24,6 +28,10 @@ def echo(text_to_translate: TextToTranslate):
 @app.post("/translate")
 def translate(text):
     return pipeline(text)
+
+@app.post("/translating")
+def translating(texts_to_translate: TextsToTranslate):
+    return pipeline(texts_to_translate.input_texts)
 
 if __name__ == "__main__":
     import uvicorn
