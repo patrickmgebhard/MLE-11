@@ -10,9 +10,9 @@
 
 ### ☑️ Objectives
 At the end of this session, you will be able to:
-- [ ] Interact with the Hugging Face API
-- [ ] Build a simple web app using Fast API
-- [ ] Create an API endpoint for your selected pre-trained model
+- [x] Interact with the Hugging Face API
+- [x] Build a simple web app using Fast API
+- [x] Create an API endpoint for your selected pre-trained model
 
 ### 📚 Get Started
 
