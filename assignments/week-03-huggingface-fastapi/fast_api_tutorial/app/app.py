@@ -10,7 +10,6 @@ app = FastAPI()
 class TextToTranslate(BaseModel):
     input_text: str
 
-# need to fix this!
 class TextsToTranslate(BaseModel):
     input_texts: List[str]
 
