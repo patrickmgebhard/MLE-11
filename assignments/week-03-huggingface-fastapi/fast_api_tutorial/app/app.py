@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from transformers import pipeline
+from typing import List
 
 pipeline = pipeline(model="model/t5_small", task="translation_en_to_de")
 
@@ -11,7 +12,7 @@ class TextToTranslate(BaseModel):
 
 # need to fix this!
 class TextsToTranslate(BaseModel):
-    input_texts: list[str]
+    input_texts: List[str]
 
 @app.get("/")
 def index():
