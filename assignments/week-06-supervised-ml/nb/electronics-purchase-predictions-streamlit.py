@@ -12,6 +12,7 @@ st.markdown("<h1 style='text-align: center; color: black;'>Online Electronics Pu
 # Import train dataset to DataFrame
 train_df = pd.read_csv("../dat/train.csv.gz", compression="gzip")
 model_results_df = pd.read_csv("../dat/model_results.csv")
+shap_values_df = pd.read_csv("../dat/shap_values.csv")
 
 # Drop uniformative columns
 train_df.drop(columns=["year", "month", "Weekend"], inplace=True)
@@ -144,12 +145,18 @@ with tab2:
 
 with tab3: 
     # YOUR CODE GOES HERE!
-        # Use tab2 as a guide!  
-        # Use columns to separate visualizations for models
         # Include a plot for local and global explanability!
-     
-    st.header(model1_select)
-    
-    st.header(model2_select)
+        # Columns for side-by-side model comparison
+    col1, col2 = st.columns(2)
 
+    model1_shap_values = shap_values_df[shap_values_df["model"] == model1_select]
+    model2_shap_values = shap_values_df[shap_values_df["model"] == model2_select]
+
+    with col1:
+        st.header(model1_select)
+        st.dataframe(model1_shap_values)
+
+    with col2:
+        st.header(model2_select)
+        st.dataframe(model2_shap_values)
     
