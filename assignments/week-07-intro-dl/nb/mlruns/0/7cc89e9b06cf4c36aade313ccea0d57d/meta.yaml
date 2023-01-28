@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/patrickgebhard/Repositories/MLE-11/assignments/week-07-intro-dl/nb/mlruns/0/7cc89e9b06cf4c36aade313ccea0d57d/artifacts
+end_time: 1674946001438
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7cc89e9b06cf4c36aade313ccea0d57d
+run_name: burly-frog-665
+run_uuid: 7cc89e9b06cf4c36aade313ccea0d57d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674946000354
+status: 4
+tags: []
+user_id: patrickgebhard

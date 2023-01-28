@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/patrickgebhard/Repositories/MLE-11/assignments/week-07-intro-dl/nb/mlruns/0/0e3b09df72e34932b587b07f8477eb39/artifacts
+end_time: 1674947186776
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0e3b09df72e34932b587b07f8477eb39
+run_name: adaptable-fish-468
+run_uuid: 0e3b09df72e34932b587b07f8477eb39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674947185994
+status: 4
+tags: []
+user_id: patrickgebhard

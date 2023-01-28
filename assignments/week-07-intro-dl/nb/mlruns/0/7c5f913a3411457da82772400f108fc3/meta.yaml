@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/patrickgebhard/Repositories/MLE-11/assignments/week-07-intro-dl/nb/mlruns/0/7c5f913a3411457da82772400f108fc3/artifacts
+end_time: 1674946398136
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c5f913a3411457da82772400f108fc3
+run_name: agreeable-ram-207
+run_uuid: 7c5f913a3411457da82772400f108fc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674946397789
+status: 4
+tags: []
+user_id: patrickgebhard
